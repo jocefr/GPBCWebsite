@@ -1,8 +1,8 @@
 name: Golden Plains Baptist Church
 title: Golden Plains Baptist Church
 
-url: http://gpbc.ca
-baseurl: http://gpbc.ca
+url: https://jocefr.github.io/GPBCWebsite/
+baseurl: https://jocefr.github.io/GPBCWebsite/
 
 sass:
   style: compressed

@@ -1,0 +1,33 @@
+---
+layout: default
+title: Events
+description: 
+---
+
+
+<section class="container-fluid section-space section-bg-1 regular-paragraph-padding">
+    <div class="container">
+        <h1 class="center">upcoming events</h1>
+        <div class="center no-fs underline-bottom">
+            <img src="images/uline.png" alt="uline" class="image-center" />
+        </div>
+        <div class="row common-row-space">
+
+            {% for event in site.data.events %}
+            <div class="col-md-2 col-sm-3 col-xs-4 upcoming-res-bottom event-fixed">
+                <div class="upcoming-events-bg events-shadow">
+                    <p class="center events-num">{{event.day}}</p>
+                    <h2 class="center">{{event.month}}</h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-9 col-xs-8 common-fixed-full upcoming-res-bottom-1">
+                <div>
+                    <h2 class="left h2-bottom res-text-center-2">{{event.name}}</h2>
+                    <p class="left res-text-center-2">{{event.description}}</p>
+                </div>
+            </div>
+            {% endfor %}
+            
+        </div>
+    </div>
+</section>

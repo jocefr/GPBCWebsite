@@ -1,0 +1,21 @@
+- name: Home
+  dropdown: false
+  url: /index.html
+- name: Events
+  dropdown: false
+  url: /events.html
+- name: Audio/Video
+  dropdown: false
+  url: /media.html
+- name: About
+  dropdown: true
+  subpages:
+  - name: Services & Ministries
+    url: /services.html
+  - name: Pastor Carlson
+    url: /pastor.html
+  - name: Statment of Faith
+    url: /statement-of-faith.html
+- name: Heaven
+  dropdown: false
+  url: /salvation.html

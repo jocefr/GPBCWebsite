@@ -1,0 +1,18 @@
+name: Golden Plains Baptist Church
+title: Golden Plains Baptist Church
+
+url: http://gpbc.ca
+baseurl: http://gpbc.ca
+
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+exclude:
+ - working_files

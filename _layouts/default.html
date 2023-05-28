@@ -10,18 +10,18 @@
     <!-- FAVICON LINK -->
     <!--link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"-->
     <!-- Bootstrap -->
-    <link href="assets/styles/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ 'assets/styles/vendor/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 
-    <!-- CAROUSEL STYLE LINK  -->
+    <!-- CAROUSEL STYLE LINK  >
     <link rel="stylesheet" type="text/css" href="assets/styles/vendor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/vendor/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" type="text/css" href="assets/styles/vendor/owl-carousel/carousel.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/styles/vendor/owl-carousel/carousel.css"--> 
 	
 	 <!-- FONT AWESOME LINK -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+	<link rel="stylesheet" href="{{ 'assets/styles/vendor/fontawesome-all.css' | relative_url }}">
 
 
-    <link href="assets/styles/style.css" rel="stylesheet">
+    <link href="{{ 'assets/styles/style.css' | relative_url }}" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,23 +41,23 @@
   {% include footer.html %}
 
   <!-- JQUERY LIBRARY -->
-  <script type="text/javascript" src="assets/scripts/vendor/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ 'assets/scripts/vendor/jquery.min.js' | relative_url }}"></script>
   <!-- BOOTSTRAP -->
-  <script type="text/javascript" src="assets/scripts/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{{ 'assets/scripts/vendor/bootstrap.min.js' | relative_url }}"></script>
 
-  <!-- SLIDER JS FILES -->
-  <script type="text/javascript" src="assets/scripts/vendor/slider/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="assets/scripts/vendor/slider/carousel.js"></script> 
+  <!-- SLIDER JS FILES >
+  <script type="text/javascript" src="{{ 'assets/scripts/vendor/slider/owl.carousel.min.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{ 'assets/scripts/vendor/slider/carousel.js' | relative_url }}"></script--> 
 
   <!-- VIDEO>
   <script type="text/javascript" src="assets/scripts/vendor/video/video.js"></script-->  
 	
-	<!-- VALIDATION -->
-	<script type="text/javascript" src="assets/scripts/vendor/validate/jquery.validate.min.js"></script>
+	<!-- VALIDATION>
+	<script type="text/javascript" src="assets/scripts/vendor/validate/jquery.validate.min.js"></script-->
 
   <!-- THEME JS -->
-  <script type="text/javascript" src="assets/scripts/custom.js"></script>
-	<script type="text/javascript" src="assets/scripts/custom_index.js"></script>
+  <script type="text/javascript" src="{{ 'assets/scripts/custom.js' | relative_url }}"></script>
+	<script type="text/javascript" src="{{ 'assets/scripts/custom_index.js' | relative_url }}"></script>
 	
 	
 </body>

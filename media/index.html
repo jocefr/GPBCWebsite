@@ -1,0 +1,30 @@
+---
+layout: default
+title: Media
+description: Audio & Video from messages at Golden Plains Baptist Church
+---
+
+<section class="container-fluid section-space section-bg-1 regular-paragraph-padding">
+    <div class="container">
+
+        <h1 class="center">Audio & Video</h1>
+        <div class="center no-fs">
+            <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
+        </div>
+        {% include recent-videos.html %}
+        <div class="row common-row-space">
+            <div class="col-xs-12">
+                <h2>Pastor Carlson's Messages</h2>
+                <p class="small"><a href="https://archive.org/search?query=gpbc%2C+pastor+rob+carlson&sort=publicdate" target="_blank" style="font-size: 21px;">Archived Audio</a> - Please note that these messages are archived on a third party archive site.  We do not endorse any other content you may find archived on that site.</p>
+                <h2>Teen Lightning Messages</h2>
+                {% include teen-lightning-sermons.html %}
+                <h2>Campmeeting Messages</h2>
+                {% include campmeeting-sermons.html %}
+                <h2>Fall Revival Messages</h2>
+                <ul class="sermon-list">
+                    <li><a href="fall-revival-audio.html">Fall Revival Audio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

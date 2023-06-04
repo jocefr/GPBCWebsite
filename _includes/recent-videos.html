@@ -3,10 +3,10 @@
         <h2 class="center">Recent Videos</h2>
         {% if page.title == "Home" %}
         <div class="center no-fs underline-bottom">
-            <img src="images/uline.png" alt="uline" class="image-center" />
+            <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
         </div>
         {% endif %}
-        <p class="lead center"><i class="fa-brands fa-youtube fa-xl fa-fw"></i> Find more videos on our <a href="https://youtube.com/@GoldenPlainsBaptistChurch" target="_blank">YouTube Channel</a></p>
+        <p class="lead center"><a href="https://youtube.com/c/GoldenPlainsBaptistChurch/videos" target="_blank"><i class="fa-brands fa-youtube fa-xl fa-fw"></i> Find more videos on our YouTube Channel</a></p>
         <div class="row common-row-space">
             {% for video in site.data.videos %}
             <div class="col-sm-6">

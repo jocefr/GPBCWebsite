@@ -1,21 +1,31 @@
 - name: Home
   dropdown: false
-  url: /index.html
+  url: https://gpbc.ca/index.html
 - name: Events
-  dropdown: false
-  url: /events.html
+  dropdown: true
+  subpages:
+  - name: Coming Up
+    url: https://gpbc.ca/events/
+  - name: Summer Campmeeting
+    url: https://gpbc.ca/events/campmeeting.html
+  - name: Teen Lightning
+    url: https://gpbc.ca/events/teen-lightning.html
+  - name: Fall Revival
+    url: https://gpbc.ca/events/fall-revival.html
 - name: Audio/Video
   dropdown: false
-  url: /media.html
+  url: https://gpbc.ca/media/
 - name: About
   dropdown: true
   subpages:
   - name: Services & Ministries
-    url: /services.html
+    url: https://gpbc.ca/services.html
   - name: Pastor Carlson
-    url: /pastor.html
+    url: https://gpbc.ca/pastor.html
   - name: Statment of Faith
-    url: /statement-of-faith.html
+    url: https://gpbc.ca/statement-of-faith.html
+  - name: Missions
+    url: https://gpbc.ca/missionaries.html
 - name: Heaven
   dropdown: false
-  url: /salvation.html
+  url: https://gpbc.ca/salvation.html

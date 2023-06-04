@@ -40,14 +40,12 @@
 =====================================================================================================*/
 /*========================================== TYPOGRAPHY ==============================================
 	
-	HEADING    :font-family: 'Montserrat', Helvathika, Arial sans-serif;
-	CONTENT    :font-family: 'Open Sans', Helvathika, Arial sans-serif;
+	HEADING    :font-family: 'Montserrat', Helvetica, Arial sans-serif;
+	CONTENT    :font-family: 'Open Sans', Helvetica, Arial sans-serif;
 
 ====================================================================================================*/
 /*========================================== 1.GLOBAL CSS START ===========================================*/
 /* CUSTOM STYLES */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
 a {
     outline: none !important;
     text-decoration: none !important;
@@ -58,13 +56,13 @@ h3,
 h4,
 h5,
 h6, .donation-h2, .menu-fs {
-    font-family: 'Roboto', Helvathika, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 /* elements */
 
 body {
-    font-family: 'Open Sans', Helvathika, Arial, sans-serif;
-    font-size: 14px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
     line-height: 1.6;
 }
 .main-content {
@@ -113,7 +111,7 @@ h2 {
 
 p {
     color: #666666;
-    font-size: 14px;
+    font-size: 16px;
 }
 .p-white-text {
     color: #ffffff;
@@ -198,7 +196,7 @@ a:visited {
 }
 .link {
     color: #f1c40f;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 .link-top {
@@ -322,7 +320,7 @@ iframe {
 .menu-fs,
 .menu-fs li {
     color: #666666;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 1px;
@@ -478,11 +476,11 @@ iframe {
     filter: alpha(opacity=0);
 }
 .readmore:hover:before {
-    left: -14px;
+    left: -16px;
     opacity: 1;
 }
 .readmore:hover:after {
-    right: -14px;
+    right: -16px;
     opacity: 1;
 }
 /*========================================== WELCOME TO CHURCH END ===========================================*/
@@ -501,7 +499,7 @@ iframe {
 /*========================================== SCHEDULE START ===========================================*/
 
 .uline-sec-time {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 20px;
     padding-bottom: 5px;
@@ -638,7 +636,7 @@ iframe {
 .email-success,
 .email-failure {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
 }
 .errorClass {
@@ -696,7 +694,7 @@ iframe {
 }
 .form-success,
 .form-failure {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
 }
 .form-success {
@@ -748,7 +746,7 @@ iframe {
     padding-bottom: 20px;
 }
 .latest-posts-sub {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 /*========================================== FOOTER-2 END ===========================================*/
@@ -804,7 +802,7 @@ iframe {
 .widget_archive .lsb-date,
 .entry-meta .lsb-date-pm,
 .entry-meta .footer-category {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
 }
@@ -817,7 +815,7 @@ iframe {
 }
 .entry-meta .list-1,
 .entry-meta .list-2 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 20px;
     padding-bottom: 5px;
@@ -829,7 +827,7 @@ iframe {
     padding-bottom: 30px;
 }
 .footer-bg {
-    background-color: #202A44;
+    background-color: #337ab7;
 }
 .distab {
     display: table;
@@ -1263,6 +1261,7 @@ iframe {
     font-size: 21px;
 }
 .lead {
+    font-size: 18px;
     margin-bottom: 6px;
 }
 .music-download-list {

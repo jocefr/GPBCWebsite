@@ -1264,9 +1264,10 @@ iframe {
     font-size: 18px;
     margin-bottom: 6px;
 }
-.music-download-list {
-    font-size: 12px;
+.link-list {
+    padding: 0;
 }
-.music-download-list a {
-    font-size: 21px;
+.link-list li {
+    list-style: none;
+    padding: 6px 0;
 }

@@ -1,0 +1,27 @@
+<section class="container-fluid section-space section-bg-1" id="schedule">
+    <div class="container">
+        <h2 class="center">Recent Audio</h2>
+        {% if page.title == "Home" %}
+        <div class="center no-fs underline-bottom">
+            <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
+        </div>
+        {% endif %}
+        
+        <div class="row common-row-space">
+            <div class="col-xs-12 col-lg-4">
+                {% include audio1.html %}
+            </div>
+            <div class="col-xs-12 col-lg-4">
+                {% include audio2.html %}
+            </div>
+            <div class="col-xs-12 col-lg-4">
+                <p class="lead">Subscribe to the podcast</p>
+                <ul class="link-list">
+                    <li><a href="https://podcasts.apple.com/us/podcast/through-his-word/id563104270"><i class="fa-brands fa-apple fa-xl fa-fw"></i> Apple Podcasts</a></li>
+                    <li><a href="https://podcasts.google.com/feed/aHR0cDovL3d3dy5ncGJjLmNhL2ZlZWQueG1s"><i class="fa-brands fa-google fa-xl fa-fw"></i> Google Podcasts</a></li>
+                    <li><a href="https://open.spotify.com/show/0bfGA7VhTHJNeT8Hdkq22t"><i class="fa-brands fa-spotify fa-xl fa-fw"></i> Spotify</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

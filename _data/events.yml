@@ -1,4 +1,31 @@
+- name: Father's Day Service
+  date: June 18, 2023
+  day: 18
+  month: JUNE
+  description: Recognizing Fathers/Husbands/Men in the Sunday am service
+
 - name: Summer Campmeeting 2023
-  day: 26
-  month: JUL
+  date: July 26-30, 2023
+  day: 26-30
+  month: JULY
+  link: https://gpbc.ca/events/campmeeting.html
   description: <a href="https://gpbc.ca/events/campmeeting.html">Click for more details</a>
+
+- name: Church Anniversary
+  date: August 20, 2023
+  day: 20
+  month: AUG
+  description: Golden Plains Baptist Church's 33rd anniversary
+
+- name: Christmas Play
+  date: December 17, 2023 6pm
+  day: 17
+  month: DEC
+  description: 6:00pm - more details to come
+
+- name: Teen Lightning 2024
+  date: April 4-5, 2024
+  day: 4-5
+  month: APR
+  link: https://gpbc.ca/events/teen-lightning.html
+  description: Youth Conference - more details to come

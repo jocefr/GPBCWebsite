@@ -1,0 +1,30 @@
+<section class="container-fluid section-space section-bg-1">
+    <div class="container">
+        <div class="row common-row-space">
+            <div class="col-xs-12 col-md-4">
+                <h3>Services</h3>
+                <p><strong>Sunday</strong></br>
+                Morning service & Sunday school 10:30am<br>
+                Evening service 6:00pm<br>
+                <p><strong>Wednesday</strong><br>
+                Bible Study & Prayer Meeting 7:00pm<br>
+                Children's Patch Club 7:00pm</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h3>Ministries</h3>
+                <p>Bible Institue (currently on summer break)</p>
+                <p>College & Career</p>
+                <p>Teen Department</p>
+                <p>Soul Winning & Scripture Signs</p>
+                <p><a href="{{ 'services.html' | relative_url }}">Click for more information</a></p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h3>Events Coming Up</h3>
+                {% for event in site.data.events limit: 3 %}
+                    <p><strong>{{event.name}}</strong><br>{{event.date}}</p>
+                {% endfor %}
+                <p><a href="{{ '/events/index.html' | relative_url }}">More...</a></p>
+            </div>
+        </div>
+    </div>
+</section>

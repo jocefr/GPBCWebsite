@@ -15,16 +15,26 @@ description: Audio & Video from messages at Golden Plains Baptist Church
         {% include recent-videos.html %}
         <div class="row common-row-space">
             <div class="col-xs-12">
-                <h2>Pastor Carlson's Messages</h2>
-                <p class="small"><a href="https://archive.org/search?query=gpbc%2C+pastor+rob+carlson&sort=publicdate" target="_blank" style="font-size: 21px;">Archived Audio</a> - Please note that these messages are archived on a third party archive site.  We do not endorse any other content you may find archived on that site.</p>
-                <h2>Teen Lightning Messages</h2>
-                {% include teen-lightning-sermons.html %}
                 <h2>Campmeeting Messages</h2>
                 {% include campmeeting-sermons.html %}
+                <div class="center no-fs">
+                    <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
+                </div>
+                <h2>Teen Lightning Messages</h2>
+                {% include teen-lightning-sermons.html %}
+                <div class="center no-fs">
+                    <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
+                </div>
+                <h2>Pastor Carlson's Messages</h2>
+                <ul class="sermon-list">
+                    <li><a href="audio-series/living-by-principles.html">Living By Principles Series</a></li>
+                    <li><a href="https://archive.org/search?query=gpbc%2C+pastor+rob+carlson&sort=publicdate" target="_blank" style="font-size: 21px;">Archived Audio</a><span style="font-size: 16px;"> - Please note that these messages are archived on a third party archive site.  We do not endorse any other content you may find archived on that site.</span></li>
+                </ul>
                 <h2>Fall Revival Messages</h2>
                 <ul class="sermon-list">
                     <li><a href="fall-revival-audio.html">Fall Revival Audio</a></li>
                 </ul>
+
             </div>
         </div>
     </div>

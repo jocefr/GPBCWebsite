@@ -50,6 +50,8 @@
 
 :root {
     --gold: #f1c40f;
+    --green: #275745;
+    --light-green: #325c4c;
     --main-heading: #333;
     --content-colour: #666;
     --footer-colour: #275745;
@@ -73,6 +75,11 @@ h6, .donation-h2, .menu-fs {
 /* elements */
 
 .sm-h3 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sm-h2 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -137,16 +144,19 @@ p {
 .p-bottom {
     margin-bottom: 20px;
 }
+.sm-p {
+    font-size: 12px;
+}
 a {
     text-decoration: none;
 }
 a:link, a:visited {
     text-decoration: none;
-    color: var(--burgundy);
+    color: var(--light-green);
 }
 a:hover, a:active {
     text-decoration: none;
-    color: var(--dark-burgundy)
+    color: var(--green)
 }
 .section-space {
     padding-top: 40px;
@@ -282,6 +292,7 @@ iframe {
 .header-bgimage, .header-bgimage-1,
 .header-bgimage-2,
 .header-bgimage-3,
+.header-bgimage-christmas,
 .cta-bgimage,
 .email-bgimage,
 .two-column-bgimage-1,
@@ -382,6 +393,9 @@ iframe {
 }
 .header-bgimage{
     background-image: url("../../assets/images/header.jpg");
+}
+.header-bgimage-christmas{
+    background-image: url("../../assets/images/play-header.jpg");
 }
 .header-bgimage-1{
     background-image: url("../../images/1500x760x1.jpg");

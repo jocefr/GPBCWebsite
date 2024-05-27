@@ -104,7 +104,6 @@ h1,
 h2 {
     color: var(--main-heading);
     font-weight: 500;
-	text-transform:capitalize;
 }
 .anchor {
     padding-top: 65px;
@@ -293,6 +292,7 @@ iframe {
 .header-bgimage-2,
 .header-bgimage-3,
 .header-bgimage-christmas,
+.header-bgimage-campmeeting,
 .cta-bgimage,
 .email-bgimage,
 .two-column-bgimage-1,
@@ -355,7 +355,6 @@ iframe {
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 1px;
-	text-transform:capitalize;
 }
 .menu-bg {
     background: rgb(255, 255, 255) none repeat scroll 0 0;
@@ -396,6 +395,9 @@ iframe {
 }
 .header-bgimage-christmas{
     background-image: url("../../assets/images/play-header.jpg");
+}
+.header-bgimage-campmeeting{
+    background-image: url("../../assets/images/campmeeting-header.jpg");
 }
 .header-bgimage-1{
     background-image: url("../../images/1500x760x1.jpg");

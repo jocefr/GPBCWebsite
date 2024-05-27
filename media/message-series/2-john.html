@@ -1,0 +1,29 @@
+---
+layout: default
+title: The Book of 2 John Series
+description: Recordings of sermons in 2 John
+---
+
+<section class="container-fluid section-space section-bg-1 regular-paragraph-padding">
+    <div class="container">
+
+        <h1 class="center">The Book of 2 John</h1>
+        <div class="center no-fs underline-bottom">
+            <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
+        </div>
+        <div class="row common-row-space">
+            <div class="col-xs-12">
+
+                <h2 class="sm-h2">Video</h2>
+                <p><a href="https://www.youtube.com/playlist?list=PLDUBFgkFZ8XeHGJdLoJVKK53fB-JqUonk">Watch here on YouTube</a></p>
+
+
+                <h2 class="sm-h2">Audio</h2>
+                <p>{% for sermon in site.data.sermonSeries.secondJohn %}
+                <a href="{{sermon.link}}" target="_blank">{{sermon.name}}</a><br>
+                {% endfor %}</p>
+                    
+            </div>
+        </div>
+    </div>
+</section>

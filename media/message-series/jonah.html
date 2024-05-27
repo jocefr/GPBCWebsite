@@ -1,0 +1,24 @@
+---
+layout: default
+title: The Book of Jonah Series
+description: Audio recordings of sermons in Jonah
+---
+
+<section class="container-fluid section-space section-bg-1 regular-paragraph-padding">
+    <div class="container">
+
+        <h1 class="center">The Book of Jonah Audio</h1>
+        <div class="center no-fs underline-bottom">
+            <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
+        </div>
+        <div class="row common-row-space">
+            <div class="col-xs-12">
+
+                {% for sermon in site.data.sermonSeries.jonah %}
+                <a href="{{sermon.link}}" target="_blank">{{sermon.name}}</a><br>
+                {% endfor %}
+                    
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,25 @@
+---
+layout: default
+title: Before And After We Die Series
+description: Recordings of sermons about before and after death
+---
+
+<section class="container-fluid section-space section-bg-1 regular-paragraph-padding">
+    <div class="container">
+
+        <h1 class="center">Before &amp; After We Die</h1>
+        <div class="center no-fs underline-bottom">
+            <img src="{{site.baseurl}}/assets/images/uline.png" alt="uline" class="image-center" />
+        </div>
+        <div class="row common-row-space">
+            <div class="col-xs-12">
+
+                <h2 class="sm-h2">Audio</h2>
+                <p>{% for sermon in site.data.sermonSeries.beforeAfterDie %}
+                <a href="{{sermon.link}}" target="_blank">{{sermon.name}}</a><br>
+                {% endfor %}</p>
+                    
+            </div>
+        </div>
+    </div>
+</section>
